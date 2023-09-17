@@ -1,0 +1,42 @@
+.BalanceCard {
+    position: relative;
+    height: 315px;
+    height: 220px;
+    background: url('../../images/card.png') center / contain no-repeat;
+    padding: 40px 25px;
+    color: var(--dark);
+    &__label {
+        font-size: 12px;
+        font-size: 12px;
+    }
+    &__balance {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 10px 0 17px;
+    }
+    &__btn {
+        position: absolute;
+        bottom: 8%;
+        right: 19%;
+
+    }
+    &__info {
+        display: flex;
+        // justify-content: space-between;
+    }
+    &__number {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-right: 34px;
+    }
+    &__date {
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+}

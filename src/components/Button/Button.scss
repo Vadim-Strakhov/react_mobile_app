@@ -1,0 +1,18 @@
+.Button {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 8px 18px;
+    background: #121212;
+    // mix-blend-mode: multiply;
+
+    span {
+        font-size: 12px;
+        font-weight: 500;
+        text-transform: uppercase;
+        background: linear-gradient(116deg, #FFC1D4 0%, #AB9AFF 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
