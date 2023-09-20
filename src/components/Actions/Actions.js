@@ -1,13 +1,13 @@
 import { Block } from "../Block/Block";
-import './Actions.scss'
+import './Actions.scss';
 
 
 export const Actions = () => {
     const onCopy = () => {
-        alert('ON COPY')
+        alert('ON COPY');
     }
     const onShow = () => {
-        alert('ON SHOW')
+        alert('ON SHOW');
     }
 
 

@@ -1,6 +1,7 @@
-import './App.scss'
+import './App.scss';
 import { Actions } from './components/Actions/Actions';
 import { BalanceCard } from './components/BalanceCard/BalanceCard';
+import { Menu } from './components/Menu/Menu';
 import { Statistic } from './components/Statistic/Statistic';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 		<BalanceCard/>
     <Actions/>
     <Statistic/>
+    <Menu/>
     </div>
   );
 }

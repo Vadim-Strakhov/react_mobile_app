@@ -1,4 +1,4 @@
-import './Button.scss'
+import './Button.scss';
 
 export const Button = (props) => {
     const {onClick, children, className} = props;

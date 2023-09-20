@@ -1,9 +1,9 @@
-import { Button } from '../Button/Button'
-import './BalanceCard.scss'
+import { Button } from '../Button/Button';
+import './BalanceCard.scss';
 
 export const BalanceCard = () => {
     const onClick = () => {
-        alert('Add money')
+        alert('Add money');
     }
 
     return (
