@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react_mobile_app/static/css/main.63b3e893.css",
+    "main.js": "/react_mobile_app/static/js/main.f84a8384.js",
+    "static/media/card.png": "/react_mobile_app/static/media/card.65418bfa5c421f92f0d9.png",
+    "static/media/icomoon.svg?w7ia4s": "/react_mobile_app/static/media/icomoon.9297029fd33c3ec80592.svg",
+    "static/media/icomoon.eot?w7ia4s": "/react_mobile_app/static/media/icomoon.fea0821c860d2a8eea47.eot",
+    "static/media/icomoon.woff?w7ia4s": "/react_mobile_app/static/media/icomoon.cd4f29bccd880ada514e.woff",
+    "static/media/icomoon.ttf?w7ia4s": "/react_mobile_app/static/media/icomoon.850467812b9dc7e763be.ttf",
+    "index.html": "/react_mobile_app/index.html",
+    "main.63b3e893.css.map": "/react_mobile_app/static/css/main.63b3e893.css.map",
+    "main.f84a8384.js.map": "/react_mobile_app/static/js/main.f84a8384.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63b3e893.css",
+    "static/js/main.f84a8384.js"
+  ]
+}
