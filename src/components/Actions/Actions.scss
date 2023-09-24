@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1.8fr 1.2fr;
     gap: 15px;
+
     .action {
         cursor: pointer;
     }
@@ -10,8 +11,6 @@
         font-size: 22px;
     }
     span {
-        font-size: 10px;
-        align-self: center;
+        font-size: 11px;
     }
 }
-

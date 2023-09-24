@@ -15,16 +15,16 @@ export const CircleStatistic = ({label, children, percent, disabled}) => {
     return (
         <div className="CircleStatistic">
             <div className="CircleStatistic__circle">
-                <svg  viewBox="0 0 106 106">
+                <svg viewBox="0 0 106 106">
                     <linearGradient id="grey" x1="0" y1="0" x2="0" y2="100%">
-                        <stop offset="0%" stopColor="#5E5A5A"/>
-                        <stop offset="100%" stopColor="#BEC7D7"/>
+                        <stop offset="0%" stopColor="#5E5A5A" />
+                        <stop offset="100%" stopColor="#BEC7D7" />
                     </linearGradient>
                     <linearGradient id="primary" x1="0" y1="0" x2="0" y2="100%">
-                        <stop offset="0%" stopColor="#614AD3"/>
-                        <stop offset="100%" stopColor="#E42C64"/>
+                        <stop offset="0%" stopColor="#614AD3" />
+                        <stop offset="100%" stopColor="#E42C64" />
                     </linearGradient>
-                    <circle r="50" cx="50%" cy="50%"/>
+                    <circle r="50" cx="50%" cy="50%" />
                     <circle 
                     className={circleClass}
                     style={{
@@ -32,7 +32,8 @@ export const CircleStatistic = ({label, children, percent, disabled}) => {
                         }}
                     r="50" 
                     cx="50%" 
-                    cy="50%"/>
+                    cy="50%" 
+                    />
                 </svg>
                 <div className={contentClass}>{children}</div>
             </div>

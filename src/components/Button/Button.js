@@ -1,10 +1,10 @@
 import './Button.scss';
 
 export const Button = (props) => {
-    const {onClick, children, className} = props;
-    let cls = 'Button';
+    const { onClick, children, className } = props;
+    let cls = "Button";
 
-    if(className) {
+    if (className) {
         cls += ` ${className}`;
     }
 
@@ -13,5 +13,4 @@ export const Button = (props) => {
             <span>{children}</span>
         </div>
     )
-
 }

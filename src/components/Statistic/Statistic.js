@@ -29,12 +29,12 @@ export const Statistic = () => {
     return (
         <div className="Statistic">
             <div className="Statistic__label">YOUR MONEY</div>
-            <div className="Statistic_2col">
+            <div className="Statistic__2col">
                 <div className="Statistic__balance">$898,00</div>
                 <IconButton icon="Group-2" onClick={onShare}/>
             </div>
             <div className="Statistic__label">MONEY SPENT</div>
-            <div className="Statistic_2col">
+            <div className="Statistic__2col">
                 <CircleStatistic
                     label="last month"
                     percent={percentLeft}

@@ -7,7 +7,7 @@ export const Actions = () => {
         alert('ON COPY');
     }
     const onShow = () => {
-        alert('ON SHOW');
+        alert('ON SHOW CVV');
     }
 
 
