@@ -7,10 +7,10 @@ import { Statistic } from './components/Statistic/Statistic';
 function App() {
   return (
     <div className="App">
-		<BalanceCard />
-    <Actions />
-    <Statistic />
-    <Menu />
+      <BalanceCard />
+      <Actions />
+      <Statistic />
+      <Menu />
     </div>
   );
 }
