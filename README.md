@@ -1,3 +1,6 @@
-# Верстка мобильного приложения с помощью React + SCSS
+## React мобильное приложение
 
-![React Фото Слайдер](react_mobile_app.png)
+ - ### Проект доступен по ссылке - https://vadim-strakhov.github.io/react_mobile_app/
+ - ### Технологии - `react`, `css`
+
+![React Фото Слайдер](app.png)
